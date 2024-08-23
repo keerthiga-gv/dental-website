@@ -1,198 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dental Care Navigation</title>
-    <link rel="stylesheet" href="sample.css">
-</head>
+    <link rel="stylesheet" href="sample.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#dentist">Dentist</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#dentist">Dentist</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
 
-                <button>MAKE AN APPOINTMENT</button>
-            </ul>
-            <div class="menu">
-                <button>menu</button>
-            </div>
-            </div>
-        </nav>
+          <button>MAKE AN APPOINTMENT</button>
+        </ul>
+        <div class="menu">
+          <button>menu</button>
+        </div>
+      </nav>
     </header>
     <div id="main-con">
-        <div id="head">
-            <div class="txt">
-                <h1>Dentist Services that You Can Trust</h1>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia<br> and Consonantia, there
-                    live the blind texts.</p>
-                <div>
-                    <button>make an appoinment</button>
-                </div>
-            </div>
+      <div id="head">
+        <div class="txt">
+          <h1>Dentist Services that You Can Trust</h1>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia<br />
+            and Consonantia, there live the blind texts.
+          </p>
+          <div>
+            <button>make an appoinment</button>
+          </div>
         </div>
-        <div id="row">
+      </div>
+      <div id="row">
+        <div id="left-col">
+          <div id="rol">
+            <h5>WE ARE HERE FOR YOU</h5>
+            <h1>Make An Appointment</h1>
+          </div>
+          <div class="rol-1">
+            <table>
+              <form id="table">
+                <tr>
+                  <th>
+                    <label for="subject" class="tab">Your Full Name</label
+                    ><br />
+                  </th>
+                  <th><label for="subject" class="tab">Mail</label></th>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="text-tab"
+                      placeholder="Your Full Name"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="text-tab"
+                      placeholder="Mail Address"
+                    /><br />
+                  </td>
+                </tr>
 
-            <div id="left-col">
-                <div id="rol">
-                    <h5>WE ARE HERE FOR YOU</h5>
-                    <h1>Make An Appointment</h1>
-                </div>
-                <div class="rol-1">
-
-                    <table>
-                        <form id="table">
-                            <tr>
-                                <th><label for="subject" class="tab">Your Full Name</label><br></th>
-                                <th><label for="subject" class="tab">Mail</label></th>
-                            </tr>
-                            <tr>
-                                <td><input type="text"  class="text-tab" placeholder="Your Full Name"></td>
-                                <td><input type="text"  class="text-tab" placeholder="Mail Address"><br></td>
-                            </tr>
-
-                            <tr>
-                                <th><label for="subject" class="tab">Your Mobile number</label></th>
-                                <th><label for="subject" class="tab">APPOINTMENT DATE</label></th>
-                            </tr>
-                            <tr>
-                                <td><input type="text"  class="text-tab" placeholder="Your Monile number"></td>
-                                <td><input type="text"  class="text-tab" placeholder="Your APPOINTMENT DATE"></td>
-                            </tr>
-                            <tr>
-                                <th><label for="subject" class="tab">APPOINTMENT TIME</label></th>
-                                <th><label for="subject" class="tab">SELECT A DOCTOR</label></th>
-                            </tr>
-                            <tr>
-                                <td><input type="text"  class="text-tab"placeholder="Appoinment time"></td>
-                                <td><select name="subject">
-                                        <option value="John">John</option>
-                                        <option value="Wilson">Wilson</option>
-                                        <option value="Loyod">Loyod</option>
-                                    </select></td>
-                            </tr>
-                            <tr>
-                                <th><label for="subject" class="tab">Message</label></th>
-
-                            </tr>
-
-                        </form>
-                    </table>
-                    <textarea id="msg" cols="8" rows="7">Message</textarea>
-                    <div id="btn-2">
-                        <a href="#">Send a Message</a>
-                    </div>
-                </div>
+                <tr>
+                  <th>
+                    <label for="subject" class="tab">Your Mobile number</label>
+                  </th>
+                  <th>
+                    <label for="subject" class="tab">APPOINTMENT DATE</label>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="text-tab"
+                      placeholder="Your Monile number"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      class="text-tab"
+                      placeholder="Your APPOINTMENT DATE"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    <label for="subject" class="tab">APPOINTMENT TIME</label>
+                  </th>
+                  <th>
+                    <label for="subject" class="tab">SELECT A DOCTOR</label>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      class="text-tab"
+                      placeholder="Appoinment time"
+                    />
+                  </td>
+                  <td>
+                    <select name="subject">
+                      <option value="John">John</option>
+                      <option value="Wilson">Wilson</option>
+                      <option value="Loyod">Loyod</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="subject" class="tab">Message</label></th>
+                </tr>
+              </form>
+            </table>
+            <textarea id="msg" cols="8" rows="7">Message</textarea>
+            <div id="btn-2">
+              <a href="#">Send a Message</a>
             </div>
-
-            <div id="right-col">
-                <div class="ror">
-                    <h4 style="color:rgb(60, 133, 133)">LEARN ANYTHING</h4>
-
-                    <h2>We Offer Best Dental Services</h2>
-                </div>
-                <div class="top">
-                    <h5>Easy Booking</h5>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-                <div class="top">
-                    <h5>Team Dentist</h5>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-                <div class="top">
-                    <h5>Best Price Guarantee</h5>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-            </div>
-
+          </div>
         </div>
-        
-        <div id="row-2">
-            <h3 style="text-align:center; ">SERVICES</h3>
-            <h1 style="text-align:center; ">ToothCare Services</h1>
-            <div id="trow-1">
-               <div class="tr1">
-                <div class="gt">
-                    <h3 style="padding:10px; color:black">Tooth Protection</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-                <div class="gt">
-                    <h3 style="padding:10px; color:black">Dental Implants</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-               </div>
-                <div class="tr2">
-                    <div class="gt">
-                        <h3 style="padding:10px; color:black">Dental Care</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                            live the blind texts.</p>
-                    </div>
-                    <div class="gt">
-                        <h3 style="padding:10px; color:black">Teeth Whitening</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                            live the blind texts.</p>
-                    </div>
-                </div>
 
-            </div>
-            <div id="trow-2">
-                <div class="gt-1">
-                    <h3 style="padding:10px; color:black">Tooth Protection</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-                <div class="gt-1">
-                    <h3 style="padding:10px; color:black">Dental Implants</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-                <div class="gt-1">
-                    <h3 style="padding:10px; color:black">Dental Care</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-                <div class="gt-1">
-                    <h3 style="padding:10px; color:black">Teeth Whitening</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                        live the blind texts.</p>
-                </div>
-            </div>
+        <div id="right-col">
+          <div class="ror">
+            <h4 style="color: rgb(60, 133, 133)">LEARN ANYTHING</h4>
+
+            <h2>We Offer Best Dental Services</h2>
+          </div>
+          <div class="top">
+            <h5>Easy Booking</h5>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="top">
+            <h5>Team Dentist</h5>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="top">
+            <h5>Best Price Guarantee</h5>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
         </div>
-        
-        
+      </div>
 
+      <div id="row-2">
+        <h3 style="text-align: center">SERVICES</h3>
+        <h1 style="text-align: center">ToothCare Services</h1>
+        <div id="trow-1">
+          <div class="tr1">
+            <div class="gt">
+              <h3 style="padding: 10px; color: black">Tooth Protection</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+            <div class="gt">
+              <h3 style="padding: 10px; color: black">Dental Implants</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+          <div class="tr2">
+            <div class="gt">
+              <h3 style="padding: 10px; color: black">Dental Care</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+            <div class="gt">
+              <h3 style="padding: 10px; color: black">Teeth Whitening</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="trow-2">
+          <div class="tr3">
+            <div class="gt-1">
+              <h3 style="padding: 10px; color: black">Tooth Protection</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+            <div class="gt-1">
+              <h3 style="padding: 10px; color: black">Dental Implants</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+          <div class="tr4">
+            <div class="gt-1">
+              <h3 style="padding: 10px; color: black">Dental Care</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+            <div class="gt-1">
+              <h3 style="padding: 10px; color: black">Teeth Whitening</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div id="row-3">
+        <div class="imgcon-1">
+          <div id="leftcol-1"></div>
+        </div>
+        <div id="rightcol-1">
+          <div class="ror-1">
+            <h3 style="color: aqua">WELCOME TO OUR DENTAL CLINIC</h3>
+            <h2>
+              Toothcare is a Dental Clinic and Innovative Approach to Treatment
+            </h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <div class="divs-con">
+                <div class="divs">
+                    <h4>
+                      Happy<br />
+                      Patients
+                    </h4>
+                  </div>
+                  <div class="divs">
+                    <h4>
+                      Performed <br />
+                      Treatments
+                    </h4>
+                  </div>
+                  <div class="divs">
+                    <h4>
+                      Year of<br />
+                      Experienced
+                    </h4>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
