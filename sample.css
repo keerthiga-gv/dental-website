@@ -9,11 +9,11 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: aliceblue;
+  background-color: rgb(16, 173, 194);
   font: 1em sans-serif;
 }
+
 nav ul {
-  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -22,9 +22,10 @@ nav ul {
 }
 nav a {
   text-decoration: none;
+  color:white;
 }
 nav a:hover {
-  color: aqua;
+  color: black;
 }
 @media screen and (min-width: 300px) and (max-width: 480px) {
   nav ul {
@@ -52,17 +53,22 @@ nav a:hover {
   }
 }
 #head {
-  background-image: url("Laser Dentistry Nyc.webp");
+  background-image: url("head.jpeg");
   background-size: cover;
-  opacity: 0.9;
+  opacity: 1.5;
   height: 500px;
   background-repeat: no-repeat;
   position: relative;
 }
+#headt{
+  width: 50%;
+  border: #333;
+}
+
 .txt {
   position: absolute;
-  bottom: 40%;
-  color: rgb(3, 195, 185);
+  bottom: 50%;
+  color: rgba(255, 251, 251, 0.945);
   left: 2%;
 }
 #row {
@@ -70,7 +76,7 @@ nav a:hover {
 }
 #left-col {
   flex: 50%;
-  background-color: rgb(111, 192, 192);
+  background-color: rgb(111, 192, 168);
 }
 #rol h5 {
   margin: 20px;
@@ -86,8 +92,7 @@ nav a:hover {
   flex: 50%;
   background-color: whitesmoke;
 }
-.ror h4,
-h2 {
+.ror h4,h2 {
   margin: 20px;
 }
 
@@ -135,8 +140,7 @@ table {
   background-color: white;
   text-align: center;
 }
-table td,
-tr {
+table td,tr {
   padding: 15px 10px 10px 15px;
 }
 
@@ -177,8 +181,7 @@ tr {
 .gt:hover {
   background-color: aqua;
 }
-.gt p,
-h3 {
+.gt p,h3 {
   text-align: center;
 }
 #trow-2 {
@@ -201,20 +204,17 @@ h3 {
 .gt-1:hover {
   background-color: aqua;
 }
-.gt-1 p,
-h3 {
+.gt-1 p,h3 {
   text-align: center;
 }
-.tr1,
-.tr2 {
+.tr1,.tr2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.tr3,
-.tr4 {
+.tr3,.tr4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -253,10 +253,11 @@ h3 {
 }
 .divs {
   float: left;
-  border: 1px solid aqua;
+  border: 1px solid black;
   padding: 30px;
   width: 100%;
   border-radius: 10px;
+  
 }
 .divs-con {
   display: flex;
@@ -264,4 +265,58 @@ h3 {
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
+}
+#row-4{
+    text-align: center;
+    padding: 5rem;
+    background-color:white;
+}
+    .profiles {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 60px;
+      gap: 20px;
+      
+  }
+  
+  .profile {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 10px;
+      text-align: center;
+      width: 300px;
+      justify-items: center;
+  }
+  
+  .profile img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+  }
+  
+  .profile h3 {
+      margin: 10px 0 5px;
+      color: #333;
+  }
+  
+  .profile p {
+      margin: 0;
+      color: #2372a0;
+  }
+  #row-5{
+    max-width: 100%;
+    background-image: url("Laser Dentistry Nyc.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    height: 200px;
+    opacity: 0.8;
+    
+}
+#heads p,h4{
+  text-align: center;
+  padding-top: 20px;
 }
